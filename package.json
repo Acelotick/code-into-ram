@@ -1,0 +1,15 @@
+{
+  "name": "code-into-ram",
+  "version": "1.0.0",
+  "description": "Здесь предоставлен пример запуска кода JS в среде NodeJs прямо в ОЗУ.",
+  "main": "index.js",
+  "keywords": [
+    "js",
+    "ram",
+    "nodejs"
+  ],
+  "author": "Acelotick",
+  "dependencies": {
+    "memfs": "^4.15.1"
+  }
+}
