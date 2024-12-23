@@ -4,7 +4,7 @@ const { Script } = require('vm');
 
 let vol = new Volume();
 
-readFile('script.txt', 'utf8', (err, data) => {
+readFile('script.js', 'utf8', (err, data) => {
     if (err) {
         throw new Error(err);
     } else {
